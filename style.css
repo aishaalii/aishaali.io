@@ -1,0 +1,113 @@
+*{
+    Padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-size: 10px;
+    font-family:monospace;
+    background-color: #24332B;
+} 
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #24332B;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 5px;
+    width: 40px;
+}
+
+.header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+.header nav ul li {
+    display: inline;
+  }
+
+.header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+/* Hero Section */
+
+.hero {
+    background-image: url('../images/hero-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.hero p {
+    color: white;
+    display: block;
+    font-size: 150px;
+    position: relative;
+    text-align: center;
+
+}
+/* End Hero Section */
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pic-me {
+    max-width:20%;
+    height:auto;
+
+}
+
+
+.about {
+    color: white;
+}
+
+
+.work {
+    color:white;
+    display: grid;
+}
+
+
+
+.footer {
+    background: #5F4E4D;
+    width: 100%;
+    padding: 40px 35px;
+}
